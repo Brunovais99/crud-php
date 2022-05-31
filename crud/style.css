@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+label, input {
+    display: block;
+    line-height: 20px;
+    height: 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    
+}
+
+form {
+    background-color: rgba(27, 27, 27, 0.247);
+    width: 330px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+#esquerda {
+    width: 50%;
+    float: left;
+}
+
+#direita {
+    width: 50%;
+    float: left;
+}
+
+table {
+    background-color: rgba(27, 27, 27, 0.247);
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+
+tr {
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+tr#titulo {
+    font-weight: bold;
+    background-color:  rgba(27, 27, 27, 0.50);
+    color: white;
+}
+
+td {
+    padding: 0 5px;
+    border-radius: 8px 8px 0 0;
+}
+
+a {
+    background-color: white;
+    padding: 5px;
+    margin: 5px 5px;
+    text-decoration: none;
+    height: 20px;
+    border-radius: 8px;
+}
